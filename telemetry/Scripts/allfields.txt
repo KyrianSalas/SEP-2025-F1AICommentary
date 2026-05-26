@@ -1,0 +1,169 @@
+ABS Active
+ABS Enabled
+AID Allow Tire Blankets
+AID Auto Blip
+AID Auto Clutch
+AID Auto Shift
+AID Fuel Rate
+AID Ideal Line
+AID Mech Damage
+AID Stability
+AID Tire Wear Rate
+Air Density
+Air Temp
+Ballast
+Best Lap Delta
+Best Lap Time
+Brake Bias
+Brake Pos
+Brake Temp FL
+Brake Temp FR
+Brake Temp RL
+Brake Temp RR
+CG Accel Lateral
+CG Accel Longitudinal
+CG Accel Vertical
+CG Height
+Camber FL
+Camber FR
+Camber RL
+Camber RR
+Car Coord X
+Car Coord Y
+Car Coord Z
+Car Damage Front
+Car Damage Left
+Car Damage Rear
+Car Damage Right
+Car Pos Norm
+Caster FL
+Caster FR
+Chassis Pitch Angle
+Chassis Pitch Rate
+Chassis Roll Angle
+Chassis Roll Rate
+Chassis Velocity X
+Chassis Velocity Y
+Chassis Velocity Z
+Chassis Yaw Rate
+Clutch Pos
+DRS Active
+DRS Available
+Drive Train Speed
+ERS Heat Charging
+ERS Is Charging
+ERS Max Energy
+ERS Power Level
+ERS Recovery Level
+Engine Brake Setting
+Engine Limiter
+Engine RPM
+Flags
+Fuel Level
+Gear
+Ground Speed
+HR Sample Clock
+In Pit
+KERS Charge
+KERS Deployed Energy
+KERS Input
+KERS Max Energy
+LR Sample Clock
+Lap Invalidated
+Lap Time
+Lap Time2
+Last Lap Time
+Last Sector Time
+MR Sample Clock
+Max Fuel
+Max Power
+Max RPM
+Max Sus Travel FL
+Max Sus Travel FR
+Max Sus Travel RL
+Max Sus Travel RR
+Max Torque
+Max Turbo Boost
+Num Tires Off Track
+Penalties Enabled
+Position
+Raw Data Sample Rate
+Ride Height FL
+Ride Height FR
+Ride Height RL
+Ride Height RR
+Road Temp
+Self Align Torque FL
+Self Align Torque FR
+Self Align Torque RL
+Self Align Torque RR
+Session Lap Count
+Session Time Left
+Steering Angle
+Surface Grip
+Suspension Travel FL
+Suspension Travel FR
+Suspension Travel RL
+Suspension Travel RR
+TC Active
+TC Enabled
+Throttle Pos
+Tire Dirt Level FL
+Tire Dirt Level FR
+Tire Dirt Level RL
+Tire Dirt Level RR
+Tire Load FL
+Tire Load FR
+Tire Load RL
+Tire Load RR
+Tire Loaded Radius FL
+Tire Loaded Radius FR
+Tire Loaded Radius RL
+Tire Loaded Radius RR
+Tire Pressure FL
+Tire Pressure FR
+Tire Pressure RL
+Tire Pressure RR
+Tire Radius FL
+Tire Radius FR
+Tire Radius RL
+Tire Radius RR
+Tire Rubber Grip FL
+Tire Rubber Grip FR
+Tire Rubber Grip RL
+Tire Rubber Grip RR
+Tire Slip Angle FL
+Tire Slip Angle FR
+Tire Slip Angle RL
+Tire Slip Angle RR
+Tire Slip Ratio FL
+Tire Slip Ratio FR
+Tire Slip Ratio RL
+Tire Slip Ratio RR
+Tire Temp Core FL
+Tire Temp Core FR
+Tire Temp Core RL
+Tire Temp Core RR
+Tire Temp Inner FL
+Tire Temp Inner FR
+Tire Temp Inner RL
+Tire Temp Inner RR
+Tire Temp Middle FL
+Tire Temp Middle FR
+Tire Temp Middle RL
+Tire Temp Middle RR
+Tire Temp Outer FL
+Tire Temp Outer FR
+Tire Temp Outer RL
+Tire Temp Outer RR
+Toe In FL
+Toe In FR
+Toe In RL
+Toe In RR
+Turbo Boost
+Wheel Angular Speed FL
+Wheel Angular Speed FR
+Wheel Angular Speed RL
+Wheel Angular Speed RR
+Wind Direction
+Wind Speed

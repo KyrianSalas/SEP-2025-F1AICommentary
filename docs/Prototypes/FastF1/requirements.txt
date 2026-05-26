@@ -1,0 +1,7 @@
+# F1 Telemetry Analyzer Dependencies
+# Install with: pip install -r requirements.txt
+
+fastf1>=3.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+

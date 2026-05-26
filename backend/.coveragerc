@@ -1,0 +1,9 @@
+[run]
+omit =
+    run.py
+    fast_app/tests/*
+    */__init__.py
+
+[report]
+fail_under = 50
+show_missing = True

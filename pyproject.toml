@@ -1,0 +1,52 @@
+[project]
+name = "f1-ai-commentary"
+version = "1.0.0"
+description = "AI-powered F1-style race commentary generator for telemetry playback"
+authors = [
+    {name = "SPE UoB"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "fastf1",
+    "pandas",
+    "numpy",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "python-multipart",
+    "websockets"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pylint",
+    "black",
+]
+
+[tool.setuptools]
+packages = ["backend", "backend.fast_app"]
+
+[tool.pylint.master]
+ignore = ["tests"]
+ignore-paths = ["backend/fast_app/tests"]
+
+[tool.pylint.messages_control]
+disable = [
+    "C0415", "C0303", "C0304", "C0103", "C0114", "C0115", "C0116", 
+    "C0301", "R0801", "R0903", "R1725", "W0613", "W0223", "W0237", 
+    "E0401", "C0305", "W0201", "redefined-outer-name"
+]
+
+[tool.black]
+line-length = 200
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["backend/fast_app/tests"]
+pythonpath = ["."]

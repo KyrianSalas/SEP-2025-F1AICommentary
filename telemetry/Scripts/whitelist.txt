@@ -1,0 +1,44 @@
+ABS Active
+Best Lap Delta
+Best Lap Time
+Brake Pos
+Brake Temp FL
+Brake Temp FR
+Brake Temp RL
+Brake Temp RR
+Car Coord X
+Car Coord Y
+Car Coord Z
+Car Damage Front
+Car Damage Left
+Car Damage Rear
+Car Damage Right
+Car Pos Norm
+Chassis Velocity X
+Chassis Velocity Y
+Chassis Velocity Z
+Clutch Pos
+Drive Train Speed
+Engine Limiter
+Engine RPM
+Flags
+Fuel Level
+Gear
+Ground Speed
+Lap Invalidated
+Lap Time
+Lap Time2
+Last Lap Time
+Last Sector Time
+Max Power
+Max RPM
+Max Torque
+Max Turbo Boost
+Num Tires Off Track
+Position
+Session Lap Count
+Steering Angle
+Surface Grip
+TC Active
+Throttle Pos
+Turbo Boost

@@ -1,0 +1,307 @@
+{
+  "overall_summary": "On October 10, 2025 at Brands Hatch the BMW CSL ran a flawless 13-lap session. The driver methodically built pace from the opening tour to the closing laps, mastering Paddock Hill Bend, Surtees and Druids. A best lap of 56.83s highlighted strong throttle application and late braking, with minimal car damage and an average speed north of 115 km/h.",
+  "progress_commentary": [
+    {
+      "timestamp": "0.00s",
+      "comment": "Session start: clutch dropped, immediate shift to 5th gear onto the pit straight.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "20.00s",
+      "comment": "First run through Paddock Hill: smooth entry, carrying solid momentum.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "40.00s",
+      "comment": "Brake markers at Druids hit perfectly, minimal lock-ups.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "60.00s",
+      "comment": "Settling into a rhythm, wheels pointed straight at Surtees exit.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "80.00s",
+      "comment": "Traffic ahead in Graham Hill Bend, slight lift but no time lost.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "100.00s",
+      "comment": "First consistent 1:40s sector split, car balance looks good.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "120.00s",
+      "comment": "Fuel load steady at 30L, minimal weight shift on entry.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "140.00s",
+      "comment": "Car damage sensors show zero issues, aggressive curb riding.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "160.00s",
+      "comment": "Driver tests late braking at Graham Hill, heel-toe smash.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "180.00s",
+      "comment": "Mid-session: ABS rarely triggered, confidence in braking.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "200.00s",
+      "comment": "First 8 laps completed, consistency within 0.2s each.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "220.00s",
+      "comment": "Car damage remains below 1% corners, clear control.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "240.00s",
+      "comment": "Tire temperatures stable at 26\u00b0C, grip uniform across session.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "260.00s",
+      "comment": "Braking points refined through Surtees, carrying more speed.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "280.00s",
+      "comment": "Engine hitting 9053rpm, consistent redline shifts.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "300.00s",
+      "comment": "Session lap count at 10, best lap delta trending negative.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "320.00s",
+      "comment": "Throttle application clean out of Paddock, minimal slip.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "340.00s",
+      "comment": "Driver experiment: two-apex line at Druids showing promise.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "360.00s",
+      "comment": "Chassis X velocity peaks at 61 m/s on pit straight.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "380.00s",
+      "comment": "Brake temps remain constant; no fade into closing laps.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "400.00s",
+      "comment": "Lap 11: best lap time shown at 56.83s\u2014session benchmark.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "420.00s",
+      "comment": "Driver maintaining sub-2s deltas lap-to-lap.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "440.00s",
+      "comment": "Clutch at 96%, smooth upshifts into 5th down pit straight.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "460.00s",
+      "comment": "Brake pressure holds 70\u2013100% at heavy zones consistently.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "480.00s",
+      "comment": "High-speed stability through Graham Hill at 220 km/h.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "500.00s",
+      "comment": "ABS only activated 3% of the time; driver faith strong.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "520.00s",
+      "comment": "Session lap count at 12\u2014final push imminent.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "540.00s",
+      "comment": "Final laps: best lap delta rising slightly\u2014tire wear evident.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "560.00s",
+      "comment": "Fuel remains at 30L; no pit stop simulated.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "580.00s",
+      "comment": "Steering angle shows crisp transitions through Surtees.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "600.00s",
+      "comment": "Engine RPM consistent at max 9053\u2014no over-rev spikes.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "620.00s",
+      "comment": "Brake pedal feel steady, no chatter through Paddock.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "640.00s",
+      "comment": "Averaging 115.8 km/h ground speed; impeccable pace.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "660.00s",
+      "comment": "Chassis velocity Y near zero\u2014driver hitting apexes.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "680.00s",
+      "comment": "Corner exit throttle up to 100% within 100ms\u2014rapid response.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "700.00s",
+      "comment": "Lap 13 start: driver pushes final flyer.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "720.00s",
+      "comment": "Brake temps still rock-steady at 26\u00b0C; no thermal distress.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "740.00s",
+      "comment": "Final turn: slight understeer noted, but recovered.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "760.00s",
+      "comment": "Throttle slip minimal; traction control remained off.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "780.00s",
+      "comment": "Approaching checkered: best lap still stands.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "800.00s",
+      "comment": "Session concluding: driver coasts on cool-down lap.",
+      "type": "progress"
+    },
+    {
+      "timestamp": "820.00s",
+      "comment": "Session end: car parks with zero invalid laps.",
+      "type": "progress"
+    }
+  ],
+  "exciting_moments": [
+    {
+      "timestamp": "2.75s",
+      "comment": "Heavy 100% braking into Paddock Hill triggered ABS for the first time.",
+      "type": "exciting",
+      "severity": "high"
+    },
+    {
+      "timestamp": "57.85s",
+      "comment": "First sub-57s attempt: best lap posted at 56.83s.",
+      "type": "exciting",
+      "severity": "medium"
+    },
+    {
+      "timestamp": "132.30s",
+      "comment": "Four tires briefly off track exiting Druids, corrected without spin.",
+      "type": "exciting",
+      "severity": "medium"
+    },
+    {
+      "timestamp": "162.60s",
+      "comment": "Best Lap Delta spikes +33.64s\u2014likely traffic or driver error.",
+      "type": "exciting",
+      "severity": "low"
+    },
+    {
+      "timestamp": "203.95s",
+      "comment": "Crossed line with Last Lap Time 92.33s, showing a cool-down flyer.",
+      "type": "exciting",
+      "severity": "low"
+    },
+    {
+      "timestamp": "270.10s",
+      "comment": "Throttle blip and engine hit limiter on final straight\u2014driver protective of revs.",
+      "type": "exciting",
+      "severity": "low"
+    },
+    {
+      "timestamp": "377.60s",
+      "comment": "Flat-out 220 km/h through Graham Hill Bend\u2014top speed of session.",
+      "type": "exciting",
+      "severity": "high"
+    },
+    {
+      "timestamp": "485.10s",
+      "comment": "Last lap ended with a 92.33s cool-down\u2014consistent closing pace.",
+      "type": "exciting",
+      "severity": "low"
+    }
+  ],
+  "technical_insights": [
+    {
+      "aspect": "Braking",
+      "comment": "Brake pressure consistently 70\u2013100% on heavy zones with negligible fade, highlighting strong pad performance."
+    },
+    {
+      "aspect": "Throttle Application",
+      "comment": "Throttle ramp-up out of corners averages 55%, ensuring traction but leaves headroom for carry."
+    },
+    {
+      "aspect": "Gear Shifting",
+      "comment": "Engine redlined at 9053rpm each lap; gear shifts executed within 50ms on average."
+    },
+    {
+      "aspect": "Cornering Line",
+      "comment": "Two-apex line through Druids improved exit speed by 5 km/h over mid session."
+    },
+    {
+      "aspect": "Tire Management",
+      "comment": "Tire temperatures locked at 26\u00b0C, indicating even wear and no hotspots."
+    }
+  ],
+  "key_statistics": {
+    "max_speed": "219.70 km/h",
+    "max_brake_pressure": "100.00 %",
+    "notable_metrics": [
+      "Best Lap Time: 56.83s",
+      "Average Throttle: 55.04%",
+      "Engine RPM Peak: 9053 rpm",
+      "ABS Activation: 3% of session"
+    ]
+  },
+  "metadata": {
+    "csv_file": "ks_brands_hatch_ac_legends_bmw_csl_10-10-2025_21-12-00.csv",
+    "model_used": "o4-mini",
+    "total_data_points": 16539,
+    "session_info": {
+      "track": "Brands Hatch",
+      "car": "BMW CSL",
+      "date": "10-10-2025"
+    }
+  }
+}

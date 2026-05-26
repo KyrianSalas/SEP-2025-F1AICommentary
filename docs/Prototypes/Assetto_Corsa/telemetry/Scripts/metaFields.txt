@@ -1,0 +1,46 @@
+ABS Active
+ABS Enabled
+AID Allow Tire Blankets
+AID Auto Blip
+AID Auto Clutch
+AID Auto Shift
+AID Fuel Rate
+AID Ideal Line
+AID Mech Damage
+AID Stability
+AID Tire Wear Rate
+Air Density
+Air Temp
+Ballast
+Best Lap Delta
+Best Lap Time
+Brake Bias
+Car Coord X
+Car Coord Y
+Car Coord Z
+Car Pos Norm
+ERS Max Energy
+Engine Brake Setting
+Flags
+Fuel Level
+HR Sample Clock
+In Pit
+KERS Charge
+KERS Deployed Energy
+KERS Input
+KERS Max Energy
+LR Sample Clock
+MR Sample Clock
+Max Fuel
+Max Power
+Max RPM
+Max Sus Travel FL
+Max Sus Travel FR
+Max Sus Travel RL
+Max Sus Travel RR
+Max Torque
+Max Turbo Boost
+Num Tires Off Track
+Penalties Enabled
+Position
+Raw Data Sample Rate

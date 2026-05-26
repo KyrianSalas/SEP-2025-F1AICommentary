@@ -1,0 +1,111 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --f1-blue: #1b6cff;
+  --f1-blue-soft: #7fb2ff;
+  --f1-red: #ff2b45;
+  --f1-red-soft: #ff7687;
+  --ifm-color-primary: var(--f1-blue);
+  --ifm-color-primary-dark: #155de1;
+  --ifm-color-primary-darker: #1356d3;
+  --ifm-color-primary-darkest: #1047af;
+  --ifm-color-primary-light: #357dff;
+  --ifm-color-primary-lighter: #4588ff;
+  --ifm-color-primary-lightest: #6ca3ff;
+  --ifm-background-color: #f5f8ff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #eef4ff;
+  --ifm-font-color-base: #18243b;
+  --ifm-heading-color: #101a2e;
+  --ifm-code-font-size: 95%;
+  --ifm-link-color: #1a57cb;
+  --ifm-link-hover-color: #113f99;
+  --ifm-card-background-color: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(27, 108, 255, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4b91ff;
+  --ifm-color-primary-dark: #2f7eff;
+  --ifm-color-primary-darker: #1f73ff;
+  --ifm-color-primary-darkest: #005de6;
+  --ifm-color-primary-light: #67a4ff;
+  --ifm-color-primary-lighter: #76aeff;
+  --ifm-color-primary-lightest: #a1c8ff;
+  --ifm-background-color: #090d1f;
+  --ifm-navbar-background-color: #0d1229;
+  --ifm-footer-background-color: #0d1229;
+  --ifm-font-color-base: #dce6ff;
+  --ifm-heading-color: #f4f8ff;
+  --ifm-card-background-color: #121734;
+  --ifm-link-color: #7fb2ff;
+  --ifm-link-hover-color: #b9d5ff;
+  --docusaurus-highlighted-code-line-bg: rgba(75, 145, 255, 0.22);
+}
+
+html[data-theme='light'],
+html[data-theme='light'] body {
+  background: radial-gradient(circle at top, #ffffff 0%, #f5f8ff 58%);
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background: radial-gradient(circle at top, #111938 0%, #090d1f 55%);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(27, 108, 255, 0.28);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.footer {
+  border-top: 1px solid rgba(27, 108, 255, 0.24);
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: rgba(27, 108, 255, 0.24) !important;
+}
+
+.pagination-nav__link,
+.card {
+  border: 1px solid rgba(27, 108, 255, 0.22);
+  border-radius: 14px;
+}
+
+.navbar__link--active,
+.menu__link--active,
+.pagination-nav__label {
+  color: var(--f1-red) !important;
+}
+
+.button.button--primary,
+.button.button--secondary,
+.button.button--outline {
+  border-radius: 10px;
+}
+
+.button.button--primary {
+  background: var(--f1-blue);
+  border-color: var(--f1-blue-soft);
+  color: #f8fbff;
+}
+
+.button.button--primary:hover {
+  background: #155de1;
+}
+
+.button.button--secondary,
+.button.button--outline {
+  border-color: rgba(255, 43, 69, 0.5);
+  box-shadow: 0 0 0 1px rgba(255, 43, 69, 0.15) inset;
+}
+
+.button.button--secondary:hover,
+.button.button--outline:hover {
+  border-color: rgba(255, 43, 69, 0.75);
+}

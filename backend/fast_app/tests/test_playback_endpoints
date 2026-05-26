@@ -1,0 +1,29 @@
+from fastapi.testclient import TestClient
+from fast_app.main import app
+
+client = TestClient(app)
+
+def test_working():
+    response = client.get("/api/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "API is running"}
+
+def test_create_session():
+    response = client.get("/api/session")
+    assert response.status_code == 200
+    assert "session_id" in response.json()
+
+def test_ws_telemetry():
+    response = client.get("/api/session")
+    session_id = response.json()["session_id"]
+
+    with client.websocket_connect(f"/api/ws/telemetry?session_id={session_id}") as websocket:
+        initial_payload = websocket.receive_json()
+        assert "initial_setup" in initial_payload
+
+def test_ws_commentary():
+    response = client.get("/api/session")
+    session_id = response.json()["session_id"]
+
+    with client.websocket_connect(f"/api/ws/commentary?session_id={session_id}") as websocket:
+        pass

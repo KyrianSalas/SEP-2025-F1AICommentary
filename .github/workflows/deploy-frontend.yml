@@ -1,0 +1,55 @@
+name: Deploy Flutter Frontend
+
+on:
+  push:
+    branches: [ main, dev ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: |
+          cd frontend
+          flutter pub get
+
+      - name: Build Flutter Web
+        run: |
+          cd frontend
+          # Set API URL dynamically based on branch
+          if [ "${{ github.ref_name }}" == "main" ]; then
+            API_BASE_URL="https://api.f1aicommentary.co.uk"
+          else
+            API_BASE_URL="https://dev.api.f1aicommentary.co.uk"
+          fi
+          flutter build web --release --dart-define=API_BASE_URL=$API_BASE_URL
+
+      - name: Create deploy directories on EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            mkdir -p /var/www/f1ai-prod
+            mkdir -p /var/www/f1ai-dev
+
+      - name: Deploy to EC2 via SCP
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          source: "frontend/build/web/*"
+          strip_components: 3
+          target: ${{ github.ref_name == 'main' && '/var/www/f1ai-prod' || '/var/www/f1ai-dev' }}

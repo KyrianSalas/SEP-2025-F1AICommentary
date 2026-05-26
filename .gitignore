@@ -1,0 +1,21 @@
+__pycache__
+.env
+venv
+# FastF1 cache files
+f1cache/
+**/f1cache/
+*.ff1pkl
+*.sqlite
+.pytest_cache/
+.bin/
+backend/bin/
+backend/venv
+backend/cache/
+backend/.coverage
+docs/mock_frontend.html
+.pytest_cache/
+.bin/
+
+htmlcov
+build/lib/*
+f1_ai_commentary.egg-info/*

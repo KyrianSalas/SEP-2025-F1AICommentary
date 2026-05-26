@@ -1,0 +1,13 @@
+fastapi
+fastf1
+numpy
+openai
+pandas
+pydantic
+pytest
+pytest-cov
+pytest-asyncio
+python-dotenv
+uvicorn
+python-multipart
+
