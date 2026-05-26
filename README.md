@@ -1,4 +1,7 @@
-﻿# 🏎️ F1-Style AI Commentary
+﻿This is a public showcase of my COMS20006_2025 Software Engineering project created in partnership with **IBM**. Achieved a 1st (77)
+
+![alt text](image.png)
+# 🏎️ F1-Style AI Commentary
 
 <p align="center">
   A <b>realtime multimodal LLM analysis</b> dashboard to review and enjoy racing in a new format.
